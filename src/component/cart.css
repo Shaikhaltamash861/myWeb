@@ -1,0 +1,57 @@
+.row{
+    width: 100%;
+    height: 90px;
+    /* background-color: lightgreen; */
+    display: flex;
+    margin-top: 10px;
+    
+    align-items: center;
+    box-shadow: 0px 2px 7px  rgb(231, 224, 224);
+
+}
+.row .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7px;
+    width: 60px;
+    height: 60px;
+    
+
+}
+.icon img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius:50% ;
+}
+.detail{
+margin-left: 5px;
+
+
+}
+.detail h5 {
+    font-size: large;
+}
+.detail h6{
+    margin-top: -20px;
+    font-weight: 300;
+
+}
+.price p{
+margin-left: 120px;
+}
+.total-price{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 20px;
+}
+.total-price button{
+    width: 250px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+}

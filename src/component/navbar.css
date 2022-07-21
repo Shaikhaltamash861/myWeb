@@ -1,0 +1,93 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    
+  
+    box-shadow: 0px 2px  rgb(231, 224, 224);
+}
+.menu{
+    display: flex;
+    padding-right: 10px;
+   
+}
+.menu .d{
+    padding-left: 30px;
+    cursor: pointer;
+}
+.nav .logo{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    width: 120px;
+
+    height: 60px;
+    padding-left: 4%;
+   
+}
+.nav .logo img{
+    width: 60px;
+    
+}
+.nav .logo span{
+    padding-left: 3px;
+    color:rgb(255 153 0) ;
+    
+    
+}
+.user span{
+   color:  rgb(255 153 0);
+}
+.nav .logo h5{
+ font-weight: 100;
+ font-size: large;
+
+    
+}
+.nav .items{
+    display: flex;
+    padding-right: 4%;
+    cursor: pointer;
+   
+   
+}
+.items .search{
+    margin-top: 5px;
+    
+}
+ .items .search-button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-right: 25px;
+    border: none;
+        background-color: #fff;
+
+}
+
+
+.items .search-input{
+    margin-right: 5px;
+    border-bottom: 1px solid  rgb(209, 205, 205);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    text-indent: 10px;
+}
+
+ .items .bucket img{
+    cursor: pointer;
+    width: 20px;
+    padding-right: 25px;
+    margin-top: 15px;
+
+}
+ .items .user img{
+    margin-top: 15px;
+    cursor: pointer;
+    width: 15px;
+    padding-right: 25px;
+
+}

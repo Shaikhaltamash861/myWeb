@@ -1,0 +1,73 @@
+.container{
+
+    /* background-color: #f1f1f1ea; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 400px; */
+
+}
+.title .spn{
+    color:rgb(255 153 0)  ;
+}
+.box{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 500px;
+    
+    /* margin-top: 100px; */
+    background-color: #fff;
+    box-shadow:3px 4px 6px 8px rgb(231, 224, 224);
+}
+.box .sub-box{
+    
+    margin-top: 200px;
+    margin-left: 20px;
+    /* left: 70%; */
+    
+    width: 500px;
+    height: 600px;
+
+}
+.sub-box .inputs{
+    margin-top: 20px;
+    /* background-color: #fff; */
+}
+.inputs .id .inpt{
+    width: 299px;
+    height: 30px;
+    text-indent: 10px;
+    margin-bottom: 10px;
+    
+    
+    outline: none;
+}
+.inputs .password .inpt{
+    width: 300px;
+    
+    height: 30px;
+    text-indent: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.submit .btn{
+    width: 300px;
+    height: 40px;
+    border: none;
+    margin-top: 20%;
+    background-color: rgb(255 153 0) ;
+    cursor: pointer;
+}
+ .submit .des{
+    margin-left: 50px;
+}
+.des .me{
+    color:rgb(255 153 0) ;
+    cursor: pointer;
+}
